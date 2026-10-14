@@ -1,0 +1,387 @@
+[
+  {
+    "id": "p001",
+    "line": 3,
+    "start": 19,
+    "end": 99,
+    "original": "用于编写和修改中文技术文档的 Agent Skill，适合 README、设计文档、接口说明和教程。改写保留原文的功能说明、参数和操作要求，文字力求平实、具体。"
+  },
+  {
+    "id": "p002",
+    "line": 5,
+    "start": 101,
+    "end": 228,
+    "original": "规则基于阮一峰的[《中文技术文档的写作规范》](https://github.com/ruanyf/document-style-guide)整理，并补充了“AI 腔清单”。可供 Claude Code 和其他支持 Agent Skills 的工具使用。"
+  },
+  {
+    "id": "p003",
+    "line": 9,
+    "start": 239,
+    "end": 242,
+    "original": "原文："
+  },
+  {
+    "id": "p004",
+    "line": 11,
+    "start": 244,
+    "end": 338,
+    "original": "> 随着微服务架构的不断发展，配置管理已经成为一个不容忽视的问题。值得注意的是，ConfigHub 不仅提供了强大的配置管理能力，更实现了与现有系统的无缝集成——让你轻松应对各种复杂场景！"
+  },
+  {
+    "id": "p005",
+    "line": 13,
+    "start": 340,
+    "end": 351,
+    "original": "去掉套话和空泛评价后："
+  },
+  {
+    "id": "p006",
+    "line": 15,
+    "start": 353,
+    "end": 383,
+    "original": "> ConfigHub 用于管理服务配置，可与现有系统集成。"
+  },
+  {
+    "id": "p007",
+    "line": 17,
+    "start": 385,
+    "end": 429,
+    "original": "具体功能、刷新时间和接入参数以项目资料为准。资料不足时，保留已有信息，列出待确认的内容。"
+  },
+  {
+    "id": "p008",
+    "line": 19,
+    "start": 431,
+    "end": 450,
+    "original": "操作说明也要写清动作之间的关系。原文："
+  },
+  {
+    "id": "p009",
+    "line": 21,
+    "start": 452,
+    "end": 476,
+    "original": "> 每对夹指先放换算得到的位置，再放它的相反数。"
+  },
+  {
+    "id": "p010",
+    "line": 23,
+    "start": 478,
+    "end": 482,
+    "original": "改写后："
+  },
+  {
+    "id": "p011",
+    "line": 25,
+    "start": 484,
+    "end": 511,
+    "original": "> 每对夹指的两项依次为换算后的位置和该位置的相反数。"
+  },
+  {
+    "id": "p012",
+    "line": 27,
+    "start": 513,
+    "end": 605,
+    "original": "改写保留了两项的顺序，直接说明每项的含义。某一步用到前一步的结果时，指出要用的结果。较长流程可用编号步骤。遇到套用“先……，再……”的句子，按整句含义改写，重点是说明动作或数据的关系。"
+  },
+  {
+    "id": "p013",
+    "line": 29,
+    "start": 607,
+    "end": 621,
+    "original": "用词也要说明具体内容。例如："
+  },
+  {
+    "id": "p014",
+    "line": 39,
+    "start": 841,
+    "end": 947,
+    "original": "这些例子按整句话的意思改写，来源、数字和原因沿用原文。“真实”“真正”“实际”等词仅用于强调时，删去修饰语；有明确区别时，写明设备、数据来源或状态。“实际值”“数据真实性”等术语，以及函数名和字段名，按原义保留。"
+  },
+  {
+    "id": "p015",
+    "line": 41,
+    "start": 949,
+    "end": 1049,
+    "original": "“说明还需确认什么”这类表达，按句意改成“列出待确认的内容”。介绍工作原理时，“解释这个模块如何工作”可改成“说明这个模块的工作原理”。选择自然的动词搭配，保留原意。提问和自然的口语表达可保留疑问词。"
+  },
+  {
+    "id": "p016",
+    "line": 43,
+    "start": 1051,
+    "end": 1069,
+    "original": "说明和操作指导以具体做法为主。例如："
+  },
+  {
+    "id": "p017",
+    "line": 45,
+    "start": 1071,
+    "end": 1104,
+    "original": "> 不要遗漏报错，不要省略执行命令，不要漏掉 Python 版本。"
+  },
+  {
+    "id": "p018",
+    "line": 47,
+    "start": 1106,
+    "end": 1110,
+    "original": "改写为："
+  },
+  {
+    "id": "p019",
+    "line": 49,
+    "start": 1112,
+    "end": 1143,
+    "original": "> 报告问题时，附上完整报错、执行命令和 Python 版本。"
+  },
+  {
+    "id": "p020",
+    "line": 51,
+    "start": 1145,
+    "end": 1198,
+    "original": "技术要求和必要禁令仍须明确。例如“更新固件期间禁止断电”保留禁令，“关闭程序前必须保存结果”保留前提条件。"
+  },
+  {
+    "id": "p021",
+    "line": 53,
+    "start": 1200,
+    "end": 1309,
+    "original": "更多例子和网上指南的出处见[自然中文的改写示例](skills/zh-tech-writing/references/natural-chinese.md)。本项目对“真实”等空泛修饰语的处理是措辞偏好，按上下文判断。"
+  },
+  {
+    "id": "p022",
+    "line": 57,
+    "start": 1318,
+    "end": 1379,
+    "original": "用 [skills](https://github.com/vercel-labs/skills) 命令行工具安装到全局："
+  },
+  {
+    "id": "p023",
+    "line": 63,
+    "start": 1434,
+    "end": 1493,
+    "original": "手动安装时，将 `skills/zh-tech-writing` 目录复制到 `~/.claude/skills/`："
+  },
+  {
+    "id": "p024",
+    "line": 72,
+    "start": 1649,
+    "end": 1747,
+    "original": "[autocorrect](https://github.com/huacnlee/autocorrect) 用于修正中英文间距和标点。安装后，技能会在改稿时调用它。未安装时，按排版规则手动检查。"
+  },
+  {
+    "id": "p025",
+    "line": 85,
+    "start": 1934,
+    "end": 1967,
+    "original": "运行 `autocorrect -V` 查看版本号，确认命令可用。"
+  },
+  {
+    "id": "p026",
+    "line": 89,
+    "start": 1976,
+    "end": 2004,
+    "original": "支持自动调用技能的工具，可在写作任务中加载本技能。例如："
+  },
+  {
+    "id": "p027",
+    "line": 96,
+    "start": 2062,
+    "end": 2086,
+    "original": "在 Claude Code 中也可以按名称调用："
+  },
+  {
+    "id": "p028",
+    "line": 102,
+    "start": 2134,
+    "end": 2152,
+    "original": "只需要修改意见时，说明保留文件原样："
+  },
+  {
+    "id": "p029",
+    "line": 108,
+    "start": 2208,
+    "end": 2234,
+    "original": "技能会按“原句 → 改后 → 原因”的格式列出问题。"
+  },
+  {
+    "id": "p030",
+    "line": 112,
+    "start": 2248,
+    "end": 2259,
+    "original": "新文档按以下步骤编写："
+  },
+  {
+    "id": "p031",
+    "line": 114,
+    "start": 2261,
+    "end": 2284,
+    "original": "1. 明确读者，以及读者看完文档需要完成的事。"
+  },
+  {
+    "id": "p032",
+    "line": 115,
+    "start": 2285,
+    "end": 2307,
+    "original": "2. 按句子、语气、段落结构和排版规则起草。"
+  },
+  {
+    "id": "p033",
+    "line": 116,
+    "start": 2308,
+    "end": 2341,
+    "original": "3. 对照“AI 腔清单”检查全文，修改套话、含糊表达和机械句式。"
+  },
+  {
+    "id": "p034",
+    "line": 117,
+    "start": 2342,
+    "end": 2391,
+    "original": "4. 命令可用时，运行 `autocorrect --fix <文件>`。未安装时，手动检查排版。"
+  },
+  {
+    "id": "p035",
+    "line": 118,
+    "start": 2392,
+    "end": 2408,
+    "original": "5. 核对引号、省略号和破折号。"
+  },
+  {
+    "id": "p036",
+    "line": 120,
+    "start": 2410,
+    "end": 2436,
+    "original": "修改已有文档时，通读全文，按用户要求改稿或提供意见。"
+  },
+  {
+    "id": "p037",
+    "line": 122,
+    "start": 2438,
+    "end": 2445,
+    "original": "主要规则如下："
+  },
+  {
+    "id": "p038",
+    "line": 124,
+    "start": 2447,
+    "end": 2499,
+    "original": "- 句子：逗号分隔的每一部分尽量在 20 字以内。多用肯定句，直接写明谁在做什么，少用多余的“被”字句。"
+  },
+  {
+    "id": "p039",
+    "line": 125,
+    "start": 2500,
+    "end": 2558,
+    "original": "- 操作顺序：按动作之间的关系组织说明。用到前一步的结果时，写明要用的内容，保留操作顺序、判断条件和数组元素的顺序。"
+  },
+  {
+    "id": "p040",
+    "line": 126,
+    "start": 2559,
+    "end": 2618,
+    "original": "- 用词：直接说明功能、测试结果、日志内容或原文要求。空泛的“真实”“真正”等修饰语按文意处理，已有技术术语保留原名。"
+  },
+  {
+    "id": "p041",
+    "line": 127,
+    "start": 2619,
+    "end": 2669,
+    "original": "- 语气：像给同事讲清楚一件事。数字、命令和报错信息以原文或项目资料为准，缺少的关键信息注明待确认。"
+  },
+  {
+    "id": "p042",
+    "line": 128,
+    "start": 2670,
+    "end": 2715,
+    "original": "- 指导方式：写清做法、完成条件和遇到问题时的处理方式，合并重复的否定提醒，保留必要禁令。"
+  },
+  {
+    "id": "p043",
+    "line": 129,
+    "start": 2716,
+    "end": 2757,
+    "original": "- 结构：每段说明一个主题，第一句写重点。标题逐层安排，加粗和列表按阅读需要使用。"
+  },
+  {
+    "id": "p044",
+    "line": 130,
+    "start": 2758,
+    "end": 2793,
+    "original": "- 自检：逐项检查套话、机械句式、笼统用词、空泛强调和连续否定等问题。"
+  },
+  {
+    "id": "p045",
+    "line": 132,
+    "start": 2795,
+    "end": 2845,
+    "original": "完整规则见 [SKILL.md](skills/zh-tech-writing/SKILL.md)。"
+  },
+  {
+    "id": "p046",
+    "line": 145,
+    "start": 3105,
+    "end": 3220,
+    "original": "参考文件按需读取。数字、标点和英文缩写的细则见 `typography.md`；产品手册的目录与文件命名见 `manual-structure.md`；用词、翻译腔和连续否定的改写示例见 `natural-chinese.md`。"
+  },
+  {
+    "id": "p047",
+    "line": 149,
+    "start": 3232,
+    "end": 3356,
+    "original": "句子、段落、标题、标点和数字的规则，整理自阮一峰的[《中文技术文档的写作规范》](https://github.com/ruanyf/document-style-guide)。原项目放在公共领域（public domain）。本项目作了以下调整："
+  },
+  {
+    "id": "p048",
+    "line": 151,
+    "start": 3358,
+    "end": 3394,
+    "original": "- 修正原规范中的两处符号写法：破折号用 `——`，省略号用 `……`。"
+  },
+  {
+    "id": "p049",
+    "line": 152,
+    "start": 3395,
+    "end": 3446,
+    "original": "- 统一在数字和中文之间加空格。原规范允许两种写法，本项目采用与 autocorrect 一致的格式。"
+  },
+  {
+    "id": "p050",
+    "line": 153,
+    "start": 3447,
+    "end": 3471,
+    "original": "- 采用平实、口语化的表达，使用读者熟悉的词语。"
+  },
+  {
+    "id": "p051",
+    "line": 155,
+    "start": 3473,
+    "end": 3649,
+    "original": "原规范参考了华为《产品手册中文写作规范》、LeanCloud《文档风格指南》、[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)、Google Developer Documentation Style Guide 和国家标准 GB/T 15835-2011。"
+  },
+  {
+    "id": "p052",
+    "line": 157,
+    "start": 3651,
+    "end": 3688,
+    "original": "本项目补充了“AI 腔清单”、写作检查流程，以及功能说明和测试结果的写法。"
+  },
+  {
+    "id": "p053",
+    "line": 159,
+    "start": 3690,
+    "end": 4265,
+    "original": "自然中文的改写参考了 [AOSC 本地化指南](https://repo.aosc.io/aosc-l10n/zh_CN_l10n.pdf)、[Mozilla 本地化指南](https://mozilla-l10n.github.io/styleguides/zh-TW/)和 [MDN 简体中文翻译指南](https://github.com/mdn/translated-content/blob/main/docs/zh-cn/translation-guide.md)。这些资料说明如何按中文习惯处理语序、代词、状态和复数形式。肯定句的指导参考了 [Ant Design 文案](https://ant.design/docs/spec/copywriting-cn/)和 [Australian Government Style Manual](https://www.stylemanual.gov.au/style-manual-resources/government-writing-handbook/editors-tips/positive-sentences)。各来源的具体位置、适用范围和本项目示例，见[参考文件](skills/zh-tech-writing/references/natural-chinese.md)。"
+  },
+  {
+    "id": "p054",
+    "line": 161,
+    "start": 4267,
+    "end": 4361,
+    "original": "空格和标点的自动修正由 [autocorrect](https://github.com/huacnlee/autocorrect)（MIT 许可）完成。本项目调用该工具，不包含它的代码。"
+  },
+  {
+    "id": "p055",
+    "line": 165,
+    "start": 4370,
+    "end": 4384,
+    "original": "[MIT](LICENSE)"
+  }
+]

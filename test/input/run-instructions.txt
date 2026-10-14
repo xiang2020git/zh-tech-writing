@@ -1,0 +1,12 @@
+Apply your assigned skill to the frozen README as a Chinese technical-writing revision task.
+
+Workspace boundary: read and write files only inside D:\git repos\tech-writing-skills\zh-tech-writing\. Do not read external skills, configuration, or conversation history. Do not browse the web or follow external source links. Do not inspect the other condition's skill or output.
+
+1. Read your assigned SKILL.md, its references/natural-chinese.md, and its references/typography.md. Use those instructions to revise the document. No other writing skill is assigned.
+2. Read test/input/README.md in full before rewriting, then read test/input/paragraphs.json. This manifest lists every editable source paragraph, including quote paragraphs and individual list-item paragraphs, in source order. Headings, fenced code, and example tables remain fixed in this comparison.
+3. Rewrite each paragraph into natural Simplified Chinese when the skill calls for a change. Leave already suitable paragraphs unchanged. Preserve meaning, technical requirements, names, numbers, link targets, inline code, and the original role of quoted counterexamples. Do not add information absent from the source. Keep paragraph IDs and paragraph boundaries fixed; do not merge or split paragraphs. A paragraph can contain multiple sentences.
+4. Check typography manually. Do not run autocorrect in this experiment; the same manual-check condition applies to both runs.
+5. Save the complete result to your assigned JSON output path, as a UTF-8 JSON array. Each object must contain exactly the keys "id" and "text". Include every paragraph ID exactly once, in the manifest's original order. The text value is the complete revised paragraph, not an explanation, diff, or change summary. Retain any list or quote prefix from the original paragraph. Do not escape Chinese characters unnecessarily.
+6. Review the result against your assigned skill. Do not edit the source README, either skill, the input manifest, the common instructions, or the other condition's output. You may write only your assigned JSON output file.
+
+The parent agent will assemble full revised READMEs and a three-column comparison from your JSON. Report only completion, the output path, and paragraph count when finished.

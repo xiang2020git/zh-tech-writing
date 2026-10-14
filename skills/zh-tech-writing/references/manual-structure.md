@@ -15,7 +15,7 @@
 | 进阶篇 | Advanced | 否 | 目录 | 中高级开发教程 |
 | API | Reference | 否 | 目录或文件 | 逐个介绍 API |
 | FAQ | FAQ | 否 | 文件 | 常见问题 |
-| 附录 | Appendix | 否 | 目录 | 名词解释（Glossary）、最佳实践（Recipes）、故障处理（Troubleshooting）、版本说明（ChangeLog）、反馈方式（Feedback） |
+| 附录 | Appendix | 否 | 目录 | 名词解释（Glossary）、实用示例（Recipes）、故障处理（Troubleshooting）、更新记录（ChangeLog）、反馈方式（Feedback） |
 
 参考范例：[Redux 文档](https://redux.js.org/introduction/getting-started)。
 

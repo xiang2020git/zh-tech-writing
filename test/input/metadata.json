@@ -1,0 +1,23 @@
+{
+  "source": "README.md",
+  "source_sha256": "c128cb39a935c7ecb16d9fae38b23509a5c0adb6fe3c975ef3ef7246c167f06c",
+  "paragraphs": 55,
+  "chinese_skill": "test/skills/zh-tech-writing-zh/SKILL.md",
+  "english_skill": "test/skills/zh-tech-writing-en/SKILL.md",
+  "runner": "Separate fresh Codex subagents",
+  "context_history": "none",
+  "model_override": null,
+  "reasoning_effort_override": null,
+  "runs_per_language": 1,
+  "common_instructions": "test/input/run-instructions.txt",
+  "skill_file_sha256": {
+    "skills/zh-tech-writing-zh/references/manual-structure.md": "492306d814c966e160d43721b52c74ea3958c5e9c5f6d6d18df85086a8fff9a6",
+    "skills/zh-tech-writing-zh/references/natural-chinese.md": "1d5d598848913dc56542893b746ecd09879b89d71861b9f9446958b983c3867f",
+    "skills/zh-tech-writing-zh/references/typography.md": "0c17279fa16cd37899a2e1fdd799c8dde373708adf7b7b81fdb860f3c9f68b91",
+    "skills/zh-tech-writing-zh/SKILL.md": "5e820857d9751da59d4473531068fcd95c459c5bff7f10f878d4c4844bc33cda",
+    "skills/zh-tech-writing-en/references/manual-structure.md": "fa5bd9b465528cfe5db2301e9e2714d1e76986541f896c844760fc49fe47e0a0",
+    "skills/zh-tech-writing-en/references/natural-chinese.md": "e2e781982d6d99ab361b05ad1b2ca457720f912439514474debcd8a03bf5fa98",
+    "skills/zh-tech-writing-en/references/typography.md": "89cc9e4a9fb155032641838c08757f1c2722c2365748d07b70342381e550d99a",
+    "skills/zh-tech-writing-en/SKILL.md": "539dddaa7f0ee4ccec603a9d49adc9e9807efeb60965bea55c7d7eb85be3d0ae"
+  }
+}
